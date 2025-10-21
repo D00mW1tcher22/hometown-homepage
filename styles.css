@@ -1,0 +1,102 @@
+:root {
+    --color-primary: #157145;
+    --color-secondary: #57A773;
+    --color-text: #D1FAFF;
+    --color-background: #6A8EAE;
+}
+
+body {
+    font-family: "limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    text-shadow: 4px 4px 8px black;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/Mountains.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding: 10px;
+}
+
+.hero-heading {
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.hero-paragraph {
+    color: var(--color-text);
+    background-color: var(--color-secondary);
+    text-align: center;
+    margin: 20px 0 50px 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    border-bottom: 8px solid var(--color-secondary);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.card div {
+    width: 100%;
+    text-align: center;
+}
+
+.card ol {
+    text-align: left;
+}
+
+.card-img {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.guide {
+    display: flex;
+    justify-content: center;
+}
+
+.guide-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    background-color: var(--color-background);
+    border: 2px solid var(--color-primary);
+    margin: 20px;
+    padding: 20px;
+    color: var(--color-text);
+}
+
+.guide-text {
+    margin: 20px;
+}
